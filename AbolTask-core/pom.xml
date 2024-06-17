@@ -3,19 +3,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>org.demo</groupId>
+        <artifactId>AbolTask</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.demo</groupId>
+
     <artifactId>AbolTask-core</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>AbolTask-core</name>
-    <description>AbolTask-core</description>
+
     <properties>
         <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
